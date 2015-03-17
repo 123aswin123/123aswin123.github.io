@@ -34,9 +34,9 @@ Results logged to /var/lib/gems/1.9.1/gems/mysql-2.9.1/ext/mysql_api/gem_make.ou
 
 Ruby and Rails are especially infamous for such dependency issues and I was in the middle of one this time! The scripts that run on the Mac would not run in the Linux machine as gems could not be insatlled!
 
-**However doing a ```apt-get install ruby-dev``` would solve the ```ERROR: Failed to build gem native extension``` error.**
+**However doing a ```sudo apt-get install ruby-dev``` would solve the ```ERROR: Failed to build gem native extension``` error.**
 
-I faced these errors while trying to install mysql and nokogiri gems, however the rest_client gem got installed just fine!
+I faced these errors while trying to install mysql and nokogiri gems, however the rest_client gem got installed just fine!,even before a fix was attempted.
 
 Adios! niños y niñas! Gracias!
 
