@@ -3,7 +3,7 @@ layout: post
 title:  "How to overcome the \"Failed to build gem native extension\" error"
 date:   2015-03-17 15:30:01
 ---
-
+This is my first dev log post. I had decided to blog about my dev-pangs.
 Here is the first roadblock that I encountered since I started this Dev Log.This week our team at [Freshdesk][freshdesk_url] got a brand new Dell Workstation(Intel Xeon 3.30GHzx4 , 16GB and a 1080p 21.5" LED monitor). It runs two OSes Windows 8.1 and Ubuntu 14.04. This got me excited!!
 
 I've been using a Mac for the past 10 months and got pretty comfortable with the environment, but still good old ubuntu made me feel at home.
@@ -32,9 +32,9 @@ Results logged to /var/lib/gems/1.9.1/gems/mysql-2.9.1/ext/mysql_api/gem_make.ou
   {% endhighlight %}
 
 
-Ruby and Rails are especially infamous for such dependency issues and I was in the middle of one right now! The scripts that run on the Mac would not run in the Linux machine as gems could not be insatlled!
+Ruby and Rails are especially infamous for such dependency issues and I was in the middle of one this time! The scripts that run on the Mac would not run in the Linux machine as gems could not be insatlled!
 
-However doing a ```apt-get install ruby-dev``` would solve the ```ERROR: Failed to build gem native extension``` error.
+**However doing a ```apt-get install ruby-dev``` would solve the ```ERROR: Failed to build gem native extension``` error.**
 
 I faced these errors while trying to install mysql and nokogiri gems, however the rest_client gem got installed just fine!
 
