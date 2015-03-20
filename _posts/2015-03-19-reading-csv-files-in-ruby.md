@@ -4,7 +4,7 @@ title: "How to read CSV files in Ruby the smart way"
 date:   2015-03-19 15:30:01
 ---
 
-As a guy involved in data migration, CSVs are an integral part of my life. They are my favorite file format too. People might argue that using another flat format like XML,YML,ZML(just kidding) etc is definitely better. My friend and colleague [Kiran Gowtham](https://in.linkedin.com/pub/kiran-gowtham/20/a84/144/en) and I had even gotten into catfights over using a CSV vs using an RDBMS. I do agree that using an **RDBMS gives us more control, however sometimes all that we need is just a plain text file**. Using an RDBMS like mysql might be an overkill.
+CSVs are an integral part of my life. They are my favorite file format too. People might argue that using another flat format like XML,YML,ZML(just kidding) etc is definitely better. My friend and colleague [Kiran Gowtham](https://in.linkedin.com/pub/kiran-gowtham/20/a84/144/en) and I had even gotten into catfights over using a CSV vs using an RDBMS. I do agree that using an **RDBMS gives us more control, however sometimes all that we need is just a plain text file**. Using an RDBMS like mysql might be an overkill.
 
 
 I am going to stop pitching for flat-files and let us get into reading an actual CSV File. Mostly the CSVs that I deal with are generated from spreadsheets or database tables.
