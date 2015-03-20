@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A Dev's life is like a sine wave. Highs and lows alternate with each other. This is a chronicle of such
   high moments and low moments(plus what was done to overcome the challenges).
   ☮ ☯ ♡
+  - Aswin Vayiravan
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://123aswin123.github.io" # the base hostname & protocol for your site
 twitter_username: 123aswin123
