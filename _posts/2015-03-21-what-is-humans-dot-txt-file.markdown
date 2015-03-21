@@ -3,7 +3,7 @@ layout: post
 title: "What is humans.txt ?"
 date:   2015-03-21 18:30:01
 ---
-We all would have seen the [robots.txt](http://en.wikipedia.org/wiki/Robots_exclusion_standard) file in various websites. It is a file that specifies how automated website crawlers should behave in that particular web domain. The file may ask the crawlers not to get into certain parts of the webpage or not get into the website at all! If it is traffic rules for vehicles on roads, it is the robots.txt file for crawlers and websites.
+We all would have seen the [robots.txt](http://en.wikipedia.org/wiki/Robots_exclusion_standard) file in various websites. It is a file that specifies how automated website crawlers should behave in that particular web domain. The file may ask the crawlers not to get into certain parts of the webpage or not get into the website at all! If it is traffic rules for vehicles on roads, it is the ```robots.txt``` file for crawlers and websites.
 
 ####**Why do we need a humans.txt file?**
 
