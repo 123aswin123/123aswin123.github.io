@@ -14,4 +14,4 @@
 /* SITE */
         Language: English
         Doctype:HTML5
-        Tools: OS X,Atom,Markdown,HTML,CSS,Jekyll,Github pages
+        Tools: OS X,Atom,Markdown,HTML,CSS,Jekyll,Github Pages
