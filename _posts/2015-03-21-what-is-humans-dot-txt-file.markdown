@@ -31,12 +31,13 @@ The standard for humans.txt is very basic, topic headings should be in between /
         Mom: Sudha Annamalai
         From: Madurai, India
 
+        other_people=["Puss","Doggie","God"]
+
 
 /* SITE */
         Language: English
         Doctype:HTML5
         Tools: OS X,Atom,Markdown,HTML,CSS,Jekyll,Github pages
-
 
 {% endhighlight %}
 

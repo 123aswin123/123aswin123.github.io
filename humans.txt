@@ -8,6 +8,8 @@
         Mom: Sudha Annamalai
         From: Madurai, India
 
+        other_people=["Puss","Doggie","God"]
+
 
 /* SITE */
         Language: English
