@@ -1,0 +1,15 @@
+/* TEAM */
+        Devlogger: Aswin Vayiravan
+        Twitter: @123aswin123
+        Github: 123aswin123
+        From: Madurai(<3), India
+
+/* THANKS */
+        Mom: Sudha Annamalai
+        From: Maduari, India
+
+
+/* SITE */
+        Language: English
+        Doctype:HTML5
+        Tools: OS X,Atom,Markdown,HTML,CSS,Jekyll,Github pages
