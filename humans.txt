@@ -1,5 +1,5 @@
 /* TEAM */
-        Devlogger: Aswin Vayiravan
+        Author: Aswin Vayiravan
         Twitter: @123aswin123
         Github: 123aswin123
         From: Madurai(♡), India
