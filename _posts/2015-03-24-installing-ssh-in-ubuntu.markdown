@@ -4,7 +4,7 @@ title: "SSH connect to host &lt;IP Address &gt; port 22: Connection refused - FI
 date:   2015-03-24 18:30:01
 ---
 
-We all love [ubuntu][ubuntu-url]. It is not only free as in free speech but also free as in free beer. It is a very popular linux distro that has prevented the market monopolization by giant corporations. Luckily I haveen assoiciated with ubuntu for the past 7 years.
+We all love [ubuntu][ubuntu-url]. It is not only free as in free speech but also free as in free beer. It is a very popular linux distro that has prevented the market monopolization by giant corporations. Luckily I have been assoiciated with ubuntu for the past 7 years.
 
 SSH is one of those magical tools that lets users login to remote machines. When you perfrom a fresh install of ubuntu you will be able to SSH into other machines but SSHing into your machine is not supported out of the box. This is definitely a pain. Ubuntu comes literally tons of packages that we hardly use but it does not include a SSH server by default. Therefore it would be thrifty if Ubuntu shipped with SSH by default.
 
