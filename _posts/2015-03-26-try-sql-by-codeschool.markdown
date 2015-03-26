@@ -14,5 +14,10 @@ SQL and databases were not my cup of tea back in college , I must confess that _
 I strongly feel classroom learning of SQL can be replaced with these online tutorials. I learned MySQl basics from [SQL Zoo](http://sqlzoo.net/wiki/SQL_Tutorial) however to get comfy with SQL practice is the only key!
 
 ####Try SQL by code school teaches only SQL and not other basic Database concepts, If you wish to get a hang of those concepts, a coursera or edX course is highly recommended.
+##Update:
+
+__I completed the course and guess what they gave me! A Badge :D :D :'D.__
+
+![Try SQL logo]({{ site.url }}/assets/post-try-sql/code-school-badge.png)
 
 -Dev Rules!
