@@ -8,7 +8,7 @@ SQL and databases were not my cup of tea back in college , I must confess that _
 
 [Code School](https://codeschool.com) is an online programming tutor, they are the people behind ['Try Git'](https://try.github.io) and ['Try Ruby'](http://tryruby.org) and they have launched a brand new first of its kind Video + Interactive course for absolute beginners called ['Try SQL'](https://www.codeschool.com/courses/try-sql).
 
-![Try SQL logo]({{ site.url }}/assets/post-try-sql/try-sql.png)
+[![Try SQL logo]({{ site.url }}/assets/post-try-sql/try-sql.png)](https://www.codeschool.com/courses/try-sql)
 
 
 I strongly feel classroom learning of SQL can be replaced with these online tutorials. I learned MySQl basics from [SQL Zoo](http://sqlzoo.net/wiki/SQL_Tutorial) however to get comfy with SQL practice is the only key!
