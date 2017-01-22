@@ -10,7 +10,7 @@ To workaround this problem, a friend suggested us to `mongoexport` all the docum
 
 Viola, this method worked like a charm. I connected the DB with our API code and tested by retrieving a few frequently checked domains like 'youtube.com', 'hotmail.com', 'amazon.com' etc... and our API worked like a charm.
 
-However when I hit some less popular domains, but got no response from the API. On scrutinizing the logs revealed that the mongo connection had timed out. [Recent attacks on live MongoDB instances](https://nakedsecurity.sophos.com/2017/01/11/thousands-of-mongodb-databases-compromised-and-held-to-ransom/) have been prevalent and I was paranoid that our DBs might have also been attacked, but the security steps that we had taken had thwarted all the attack attempts and our database was safe.
+Then I hit some less popular domains, but got no response from the API. Scrutinizing the logs revealed that the mongo connection had timed out. [Recent attacks on live MongoDB instances](https://nakedsecurity.sophos.com/2017/01/11/thousands-of-mongodb-databases-compromised-and-held-to-ransom/) have been prevalent and I was paranoid that our DBs might have also been attacked, but the security steps that we had taken had thwarted all the attack attempts and our database was safe.
 
 Still the problem prevailed, I was unable to update records as the code threw a timeout error. In frustration I tried every MongoDB trick I was aware of. I tried restarting the VMs, stopping and starting the process, resyncing the mongoDB replica set, repairing the DB with the `mongod --repair` command. None of these resulted in fruition.
 
