@@ -12,7 +12,7 @@ Viola, this method worked like a charm. I connected the DB with our API code and
 
 Then I hit some less popular domains, but got no response from the API. Scrutinizing the logs revealed that the mongo connection had timed out. [Recent attacks on live MongoDB instances](https://nakedsecurity.sophos.com/2017/01/11/thousands-of-mongodb-databases-compromised-and-held-to-ransom/) have been prevalent and I was paranoid that our DBs might have also been attacked, but the security steps that we had taken had thwarted all the attack attempts and our database was safe.
 
-Still the problem prevailed, I was unable to update records as the code threw a timeout error. In frustration I tried every MongoDB trick I was aware of. I tried restarting the VMs, stopping and starting the process, resyncing the mongoDB replica set, repairing the DB with the `mongod --repair` command. None of these resulted in fruition.
+Still the problem prevailed, I was unable to update records as the code threw a timeout error. In frustration I tried every MongoDB / Linux trick I was aware of.Out of desperation  I tried restarting the VMs, stopping and starting the process, resyncing the mongoDB replica set, repairing the DB with the `mongod --repair` command. None of these resulted in fruition.
 
 I tried connecting to the DB via robomongo and running a few queries, the shell became unresponsive and the app crashed! Finally I SSHed into the VM where the DB was running and brought up a mongo shell.
 
