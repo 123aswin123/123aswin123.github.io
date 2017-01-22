@@ -4,7 +4,7 @@ title: "Never forget to reIndex your MongoDB after a MongoImport"
 date:   2017-01-22 22:15:00
 ---
 
-We at [Deducely](http://deducely.com) provide APIs to track technologies that are used by companies across the globe. Recently we wanted to rename some MongoDB keys (as in Key value pair JSON keys) that were being served by our API. To do that we tried used the [$rename](http://docs.mongodb.com/manual/reference/operator/update/rename). Since our DBs are enormous with millions of documents with hundreds of key value pairs, the `$rename` command took forever to run and crashed in between.
+We at [Deducely](http://deducely.com) provide APIs to track technologies that are used by companies across the globe. Recently we wanted to rename some MongoDB keys (as in Key value pair JSON keys) that were being served by our API. To do that we tried used the [$rename](http://docs.mongodb.com/manual/reference/operator/update/rename) command. Since our DBs are enormous with millions of documents with hundreds of key value pairs, the `$rename` command took forever to run and crashed in between.
 
 To workaround this problem, a friend suggested us to `mongoexport` all the documents and use `sed` to rename the keys. Lastly we had to `mongoimport` the documents with the corrected keys.
 
@@ -22,4 +22,4 @@ The queries took forever to run and resulted in a timeout because we did not cre
 
 As a rule of thumb, try to use `mongodump` and `mongorestore` wherever possible as this would ensure that everything is dumped and restored perfectly. If you are left with no other choice than doing a `mongoimport` **NERVER EVER EVER FORGET TO INDEX THE REQUIRED FIELDS**. This would save us loads of time.
 
-The best feeling that a developer can get is the satisfaction of finally finding the bug and squashing it permanently after endless hours of frustrating wild goose chases! 
+The best feeling that a developer can get is the satisfaction of finally finding the bug and squashing it permanently after endless hours of frustrating wild goose chases!
