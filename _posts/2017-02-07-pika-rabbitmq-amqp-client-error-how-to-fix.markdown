@@ -16,7 +16,8 @@ Like every confused developed I sunk in hours on github issues , stack overflow 
 
 If you too have landed here confused, don't worry, adding a socket_timeout to the pika connection parameters would save you loads of time and effort! Here is the code that fixed the `pika.exceptions.ConnectionClosed error`
 
-```import pika
+```
+import pika
 
 credentials = pika.PlainCredentials('rabbitmq_uid', 'rabbitmq_passwd')
 parameters = pika.ConnectionParameters('12.26.212.172',
@@ -34,4 +35,5 @@ channel.basic_publish(exchange='',
                   routing_key='hello',
                   body='Hello World!')
 print(" [x] Sent 'Hello World!'")
-connection.close() ```
+connection.close()
+```
