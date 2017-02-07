@@ -14,7 +14,7 @@ Rabbitmq makes me feel at home! Our interaction happens on a daily basis. Howeve
 
 Like every confused developed I sunk in hours on github issues , stack overflow and the Pika docs to fix a trivial issue! Finally A [stack overflow answer](http://stackoverflow.com/a/35716539) had the right solution for my problem!
 
-If you too have landed here confused, don't worry, adding a socket_timeout to the pika connection parameters would save you loads of time and effort! Here is the code that fixed the `pika.exceptions.ConnectionClosed error`
+If you too have landed here confused, don't worry, adding a **socket_timeout** to the pika connection parameters would save you loads of time and effort! Here is the code that fixed the `pika.exceptions.ConnectionClosed error`
 
 ```
 import pika
