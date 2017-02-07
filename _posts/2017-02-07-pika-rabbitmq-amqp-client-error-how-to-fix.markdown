@@ -16,7 +16,7 @@ Like every confused developed I sunk in hours on github issues , stack overflow 
 
 If you too have landed here confused, don't worry, adding a **socket_timeout** to the pika connection parameters would save you loads of time and effort! Here is the code that fixed the `pika.exceptions.ConnectionClosed error`
 
-```
+``` python
 import pika
 
 credentials = pika.PlainCredentials('rabbitmq_uid', 'rabbitmq_passwd')
